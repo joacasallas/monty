@@ -8,8 +8,11 @@
  */
 int main(int argc, char **argv)
 {
-	FILE *fp; size_t file_size; unsigned int l_num = 1;
-	char *opc = NULL, *ins = NULL, *line = NULL; stack_t *head;
+	FILE *fp;
+	size_t file_size;
+	unsigned int l_num = 1;
+	char *opc = NULL, *ins = NULL, *line = NULL;
+	stack_t *head;
 
 	head = NULL;
 	check_argc(argc);
